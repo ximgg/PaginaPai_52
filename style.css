@@ -1,0 +1,38 @@
+h1{ 
+    font-family: Georgia, "Abadi", Times, serif;
+   
+    font-size: 25px;
+    color: rgb(107, 60, 3); 
+}
+
+
+
+.header{
+    background-color: rgb(232, 186, 218);
+    display:flex;
+    justify-content: space-between;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+  opacity: 0.33;
+}
+
+ul.horizontal li{
+    display:block;
+    float:left;
+    padding:0 10px;
+    }
+
+
+
+    
